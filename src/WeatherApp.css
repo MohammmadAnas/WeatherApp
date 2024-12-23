@@ -1,0 +1,43 @@
+/* WeatherApp.css */
+
+.WeatherApp {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  /* background-color: palegoldenrod; */
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 45vw; /* Use viewport width for responsiveness */
+  margin: 20px auto;
+  overflow: hidden; /* Hide any overflow */
+  border: 1.5px solid black;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact__title {
+  color: #555;
+}
+
+.contact__details {
+  color: #777;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

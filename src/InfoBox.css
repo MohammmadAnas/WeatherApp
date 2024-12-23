@@ -1,0 +1,29 @@
+/* InfoBox.css */
+
+.InfoBox {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Ensure it takes full width of container */
+  display: flex; justify-content: center; align-items: center;
+  margin: auto;
+}
+
+.CardContainer {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  width: 100%;
+  max-width: 90vw; /* Use viewport width for responsiveness */
+}
+
+.InfoBox p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}

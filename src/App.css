@@ -1,0 +1,11 @@
+.App{
+    background: url("./images/background.jpg");
+}
+/* App.css */
+
+.App {
+  overflow: hidden; 
+  padding: 0px;  
+  box-sizing: border-box; 
+}
+
